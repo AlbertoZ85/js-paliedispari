@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('https://fileom.eu/wp-content/uploads/2019/12/Stardust3.jpg');
+    background-size: cover;
+}
+
+#esito {
+    width: 60%;
+    height: 75px;
+    line-height: 75px;
+    margin: auto;
+    text-align: center;
+    font-size: 2em;
+    border-radius: 10px;
+    background-color: skyblue;
+    border: 2px outset black;
+}
