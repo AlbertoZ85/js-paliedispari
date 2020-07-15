@@ -3,6 +3,8 @@
 
 // 1. Inizializzazione variabili: 'utente' per il prompt; 'risultato' e 'bgc' ai valori di esito negativo della verifica della natura palindroma della parola
 var utente = prompt('Inserisci una parola');
+// 1.1 La trasformo tutta in minuscolo, per evitare problemi col controllo delle maiuscole
+utente = utente.toLowerCase();
 var risultato = 'Mmm... scelta banale';
 var bgc = "#e60000";
 
